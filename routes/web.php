@@ -15,7 +15,7 @@ use App\Http\Controllers\Demo\HomeController;
 use App\Http\Controllers\Demo\ConditionsController;
 
 Route::get('/', function () {
-    return redirect('/demo');
+    return redirect()->route('demo.home');
     // return view('welcome');
 });
 
